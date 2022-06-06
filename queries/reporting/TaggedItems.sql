@@ -6,8 +6,8 @@ DECLARE
     @PeriodEnd date,
     @RegionReporting varchar(12);
 
-SET @PeriodStart = '2/1/2022';
-SET @PeriodEnd = '4/30/2022';
+SET @PeriodStart = '3/1/2022';
+SET @PeriodEnd = '5/31/2022';
 SET @RegionReporting = 'SERCAP';
 
 SELECT DISTINCT * FROM dbo.vw_AppliedTags at
