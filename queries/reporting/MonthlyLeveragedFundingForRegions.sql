@@ -10,7 +10,7 @@ DECLARE
    @ReportingRegion varchar(12);
 
 SET @BeginDate = '10/1/2021';
-SET @EndDate = '5/31/2022';
+SET @EndDate = '6/30/2022';
 SET @ReportingRegion =  'SERCAP';
 
 SELECT
